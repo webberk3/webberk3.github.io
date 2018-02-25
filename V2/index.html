@@ -41,7 +41,8 @@
             zoomControl:true, maxZoom:28, minZoom:1
         }).fitBounds([[20.506330461,-127.926725237],[52.2572935995,-67.5434936293]]);
         var hash = new L.Hash(map);
-        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        map.attributionControl.addAttribution('<a href="https://api.mapbox.com/styles/v1/webberk3/cje33sise06pi2smxgcej02jz/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoid2ViYmVyazMiLCJhIjoiY2plMzM4eTFrNGk5bDJ2dDM3OTB5aGtvZyJ9.BX7twUfWIVjXnt_tFhEOUg
+" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
         var basemap0 = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
