@@ -43,7 +43,8 @@
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
-        var basemap0 = L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
+        var basemap0 = L.tileLayer('https://api.mapbox.com/styles/v1/webberk3/cje33ailu887b2sqokfw8mc8r/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoid2ViYmVyazMiLCJhIjoiY2plMzM4eTFrNGk5bDJ2dDM3OTB5aGtvZyJ9.BX7twUfWIVjXnt_tFhEOUg
+', {
             attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
             maxZoom: 28
         });
